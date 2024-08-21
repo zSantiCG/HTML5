@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etiquetas Extra</title>
+
+    <style>
+
+        img{
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h2>MENU</h2>
+        <a href="../index.html">INDEX</a>
+        <hr>
+
+    </nav>
+
+
+
+    <!--FUNCIONA PARA DIFERENTES VERSIONES DE IMAGENES EN CELULAR , ETC-->
+    <picture>
+        <source srcset="./assets/naruto3.png" media="(min-width:900px)">
+        <source srcset="./assets/naruto2.png" media="(min-width:500px)">
+
+        <img src="./assets/naruto1.png" alt="">
+    </picture>
+
+
+
+<!-- 
+    FUNCIONA COMO UN CONTENEDOR DE IMAGENES 
+
+    <figure>
+        <img src="./assets/naruto1.png" alt="">
+        <figcaption>NARUTO SHIPPUDEn</figcaption>
+    </figure>  
+
+    <figure>
+        <img src="./assets/naruto2.png" alt="">
+    </figure>
+
+    <figure>
+        <img src="./assets/naruto3.png" alt="">
+    </figure> -->
+
+
+
+    
+</body>
+</html>

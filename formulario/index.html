@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <section>
+        <nav>
+            <h2>MENU</h2>
+            <a href="../index.html">INDEX</a>
+            <hr>
+        </nav>
+    </section>
+
+    
+
+    <form>
+
+        <h2>Aplica para Trabajar</h2>
+
+        <label for="nombre">Ingresar Nombre</label>
+        <input type="text" id="nombre">
+
+        <br><br>
+
+
+        <label for="email">Ingresar Email</label>
+        <input type="email" id="email" required>
+
+        <br>
+
+        <!--PAIS TIPO SELECT-->
+
+        <h3>Pais donde de alojas</h3>
+
+        <select required>
+
+        <option value="MEX">Mexico</option>
+        <option value="CO">Colombia</option>
+        <option value="PER">Peru</option>
+        <option value="NADA" selected>Otro</option>
+
+        </select>
+
+        <!--HORARIOS TIPO RADIO CHECKBOX-->
+
+        <h3>Horarios</h3>
+
+        <label>
+            <input type="radio" name="Horarios">Dia
+        </label>
+
+        <label>
+            <input type="radio" name="Horarios">Tarde
+        </label>
+
+        <label>
+            <input type="radio" name="Horarios">Noche
+        </label>
+
+        <!--TERMINOS DE CONDICION (checkbox)-->
+
+        <h3>Terminos</h3>
+
+        <label>
+
+        <input type="checkbox" required>Aceptas terminos y condiciones de tratar tu informacion
+    
+       </label>
+
+       <!--DEJA COMENTARIOS PARA TEXTOS GRANDES-->
+
+       <h3>Deja Comentarios</h3>
+       <textarea rows="4" cols="40"></textarea>
+
+        <br><br>
+
+        
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reiniciar">
+
+    </form>
+    
+  <!--minlength="6" maxlength="10"  placeholder="Coloca tu nombre"-->
+  <!-- <input type="password" placeholder="Ingresa la constraseña"> -->
+  <!-- <input type="color"> -->
+  <!-- <input type="date"> -->
+  <!-- <input type="number" placeholder="Ingrese su numero"> -->
+
+    
+   </body>
+</html>
